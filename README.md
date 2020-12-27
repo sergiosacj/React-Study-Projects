@@ -1,2 +1,3 @@
 # React-Study-Projects
-Projects I coded to learn ReactJS
+
+I learned with this amazing [material](https://youtu.be/iZhV0bILFb0)

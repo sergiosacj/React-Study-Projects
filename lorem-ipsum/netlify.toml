@@ -1,2 +1,3 @@
 [build]
-	ignore = "git diff --quiet HEAD^ HEAD lorem-ipsum/"
+	ignore = "git diff --quiet HEAD^ HEAD"
+	command = "npm install && npm run build"

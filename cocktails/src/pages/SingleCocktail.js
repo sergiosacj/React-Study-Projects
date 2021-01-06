@@ -56,8 +56,7 @@ const SingleCocktail = () => {
         <img src={cocktail.image} alt={cocktail.name} />
         <div className="drink-info">
           {Object.entries(cocktail).map(([key, value]) => {
-            if (key === "image") return null;
-            return (
+            return key === "image" ? null : (
               <p>
                 <span className="drink-data">{key} :</span>
                 {key !== "ingredient"
